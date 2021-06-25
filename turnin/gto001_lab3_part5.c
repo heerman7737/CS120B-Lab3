@@ -22,7 +22,7 @@ int main(void) {
     //unsigned char tmpA2 = 0x00;
     unsigned char tmpB = 0x00;
     unsigned char tmpD = 0x00;
-    unsigned short weight;
+    unsigned short weight 0x00;
     unsigned char output = 0x00;
     /* Insert your solution below */
     while (1) {
