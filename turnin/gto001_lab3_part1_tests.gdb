@@ -39,7 +39,7 @@ echo Running all tests..."\n\n
 #checkResult
 
 # Add tests below
-test "PINA : 0x01, PINB: 0x00 => PORTC:1"
+test "PINA : 0x01 PINB:0x00 => PORTC:1"
 setPINA 0x01
 setPINB 0x00
 continue 5
