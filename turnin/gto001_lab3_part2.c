@@ -48,6 +48,9 @@ int main(void) {
 	else if(tmpA ==13 ||tmpA ==14 ||tmpA ==15){
 		tmpC = 0x3F;
 	}
+	else if(tmpA==0x83){
+		tmpC = 112;
+	}
 	PORTC = tmpC;
     }
     return 1;
